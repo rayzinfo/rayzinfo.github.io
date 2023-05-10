@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from ryos.lol/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 May 2023 02:17:56 GMT -->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Ray-Z - Roblox Executor bypass Byfron</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="#1 Roblox Executor that bypass Byfron Anti-Cheat update (not Microsoft Store Version)">
+    <meta name="keywords" content="roblox, rice, green, electron">
+    <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+    <script src="../kit.fontawesome.com/61915796ee.js" crossorigin="anonymous"></script>
+    <style>
+d
+img {vertical-align: middle;}
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+</style><!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-23ZNQGLRVS"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-23ZNQGLRVS');
+</script> </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="30">
+    <div class="nav-menu fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-dark navbar-expand-lg"> <a class="navbar-brand"
+
+                href="index-2.html">
+                <h6 class="img-fluid" alt="logo">Ray-Z</h6>
+              </a> <button class="navbar-toggler" type="button" data-toggle="collapse"
+
+                data-target="#navbar" aria-controls="navbar" aria-expanded="false"
+
+                aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"> <a class="nav-link active" href="#home">HOME
+                      <span class="sr-only">(current)</span></a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a>
+                  </li>
+                  <li class="nav-item"> <a class="nav-link" href="#faq">FAQ</a>
+                  </li>
+                  <li class="nav-item"> <a class="nav-link" href="#download">DOWNLOAD</a>
+                  </li>
+                  <li class="nav-item"> <br>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="bg-gradient" id="home">
+      <div class="container mt-5">
+        <h1>Ray-Z</h1>
+        <p>A working executor bypass Byfron (64 Bit Roblox) [Not Microsoft Store
+          Version]</p>
+      </div>
+      <div><img src="assets/images/image.png" alt="" style="width: 539px; height: 340px;"></div>
+      <div style="max-width: 1000px;position: relative;margin: auto;">
+        <!--<div id="slide1" style="display: none;-webkit-animation-name: fade;-webkit-animation-duration: 1.5s;animation-name: fade;animation-duration: 1.5s;">-->
+        <!--  <img src="https://ryos.best/assets/images/UI.png">-->
+        <!--  <div style="color: #f2f2f2;font-size: 15px;padding: 8px 12px;position: absolute;bottom: 8px;width: 100%;text-align: center;">UI</div>-->
+        <!--</div>-->
+        <!--<div id="slide2"  style="display: none;-webkit-animation-name: fade;-webkit-animation-duration: 1.5s;animation-name: fade;animation-duration: 1.5s;">-->
+        <!--    <div id="player"></div>-->
+        <!--</div>-->
+        <!--<div id="slide3"  style="display: none;-webkit-animation-name: fade;-webkit-animation-duration: 1.5s;animation-name: fade;animation-duration: 1.5s;">-->
+        <!--  <img src="https://ryos.best/assets/images/darkhub.png" style="width:662px;height:335px;">-->
+        <!--  <div style="color: #f2f2f2;font-size: 15px;padding: 8px 12px;position: absolute;bottom: 8px;width: 100%;text-align: center;">Running DarkHub</div>-->
+        <!--</div>--> </div>
+      <br>
+      <script>
+var player;
+function onYouTubePlayerAPIReady() {
+    player = new YT.Player('player', {
+      height: '335',
+      width: '662',
+      videoId: 'kA1zmr6XUoU',
+      events: {
+        'onStateChange': onPlayerStateChange
+      }
+    });
+    console.log(player)
+}
+
+var isplaying = false
+function onPlayerStateChange(event) {
+    if (event.data == YT.PlayerState.PLAYING) {
+        isplaying = true
+        console.log(isplaying)
+    }
+    else if(event.data == YT.PlayerState.PAUSED){
+        isplaying = false;
+    }
+}
+
+
+var slideIndex = 1;
+showSlides();
+
+function showSlides() {
+  if (slideIndex == 3 && isplaying) {
+    setTimeout(showSlides, 3500)  
+    return;
+  }
+  var i;
+  var dots = document.getElementsByClassName("dot");
+  document.getElementById("slide1").style.display = "none";
+  document.getElementById("slide2").style.display = "none";  
+  document.getElementById("slide3").style.display = "none";  
+  slideIndex++;
+  if (slideIndex > 4) {slideIndex = 2}    
+  
+  if (isplaying && slideIndex != 3)
+  {
+      slideIndex = 3;
+  }
+  
+  document.getElementById("dot1").style.backgroundColor = "#bbb";
+  document.getElementById("dot2").style.backgroundColor = "#bbb";
+  document.getElementById("dot3").style.backgroundColor = "#bbb";
+  document.getElementById(`slide${slideIndex-1}`).style.display = "block";  
+  document.getElementById(`dot${slideIndex-1}`).style.backgroundColor = "#717171";
+
+  setTimeout(showSlides, 3500); // Change image every 2 seconds
+}
+</script> </header>
+    <div class="section light-bg" id="features">
+      <div class="container">
+        <div class="section-title">
+          <h3>Features</h3>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card features">
+              <div class="card-body">
+                <div class="media"> <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                  <div class="media-body">
+                    <h4 class="card-title">Stability</h4>
+                    <p class="card-text">With stability as a priority, Ray-Z is
+                      able to execute most scripts flawlessly without any
+                      crashes by being a Level 7 Executor.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card features">
+              <div class="card-body">
+                <div class="media"> <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                  <div class="media-body">
+                    <h4 class="card-title">Execution Method</h4>
+                    <p class="card-text">Ray-Z uses the LuaU Proto conversion as
+                      its main method of execution. It's fast and very stable.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card features">
+              <div class="card-body">
+                <div class="media"> <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                  <div class="media-body">
+                    <h4 class="card-title">Simple UI</h4>
+                    <p class="card-text">With the simple-to-use User Interface,
+                      navigating around the UI won't be much of a hassle.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // end .section -->
+    <div class="section" id="faq">
+      <div class="container">
+        <div class="section-title">
+          <h3>Frequently Asked Questions</h3>
+        </div>
+        <div class="row pt-4">
+          <div class="col-md-6">
+            <h4 class="mb-3">Is this exploit trustable?</h4>
+            <p class="light-font mb-5">For the most part, we can assure you that
+              Ray-Z is 99.9% trust-able and being developed by Raycer Client
+              Team that got trusted over 3000+ people.</p>
+            <h4 class="mb-3">Can Ray-Z execute any scripts?</h4>
+            <p class="light-font mb-5">Yes! We are certain that Electron is
+              capable of executing majority of scripts you wish to use.</p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">Can this run on any versions of Windows?</h4>
+            <p class="light-font mb-5">Ray-Z only supports Windows 10 or Windows
+              11, Windows 10 or lower may give you an issue and cannot run.</p>
+            <h4 class="mb-3">Will this stay free?</h4>
+            <p class="light-font mb-5">Yes, Rat-Z will always stay free and have
+              NO key-system.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // end .section -->
+    <div class="section light-bg" id="download">
+      <div class="container">
+        <div class="call-to-action">
+          <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
+          <h2>Download</h2>
+          <p class="tagline">You can download Ray-Z by clicking the <b>download</b>
+            button below.</p>
+          <div class="my-4" style="background-color: #121912;"> <a href="#download"
+
+              target="_top" class="btn btn-light" style="color: #010201;">Coming
+              soon...</a>
+            <!--- https://bit.ly/Electron_Download --> </div>
+          <p class="text-primary"><small><i>*Windows 10+ is required to run
+                Ray-Z<br>
+              </i></small></p>
+        </div>
+      </div>
+    </div>
+    <footer class="my-5 text-center">
+      <p class="mb-2"><small><small>© </small>COPYRIGHT RAYCER ENTERTAINMENT
+          LLC 2022-2023. ALL RIGHTS RESERVED.</small></p>
+    </footer>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+  <!-- Mirrored from ryos.lol/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 May 2023 02:17:59 GMT -->
+</html>
